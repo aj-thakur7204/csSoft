@@ -1,0 +1,878 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body a:hover{
+    text-decoration: none ;
+} 
+.cs-primary-bg{
+    background-color: #632724;
+}
+.cs-primary-color{
+    color: #632724;
+}
+
+.cs-primary-btn{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    background-color: #632724;
+    display: inline-block;
+    
+}
+.cs-primary-btn i, .cs-primary-btn span{
+    padding: 0 26px;
+}
+.cs-primary-btn i{
+    background-color: rgba(255,255,255,0.2);
+    padding: 22px 21px;
+}
+.cs-divider{
+    height: 1px;
+    max-width: 65px;
+    margin: 32px 0;
+}
+
+.cs-primary-heading h2{
+    font-size: 44px;
+    line-height: 52px;
+}
+.cs-sub-heading {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 4.2px;
+    margin-bottom: 25px;
+}
+
+/*=================*/
+.cs-header{
+    position: relative;
+}
+.cs-header-leftbar{
+    padding: 0 20px;
+    height: 86vh;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.cs-header-leftbar .cs-header-social a{
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50%;
+}
+.cs-header-leftbar .cs-header-scroll {
+    position: relative;
+    text-align: center;
+    margin: 70px 0 50px 0;
+}
+.cs-header-leftbar .cs-header-scroll span{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    left: 38%;
+    bottom: 82px;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    margin-left: -1px;
+}
+
+.cs-header-rightbar .cs-header-menu{
+    padding: 0;
+    max-height: 120px;
+}
+.cs-header-rightbar .cs-header-menu .cs-header-menu-list ul{
+    padding: 31px 0 24px 0;
+}
+.cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li:first-child{
+    margin-left: 0;
+}
+.cs-header .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li a{
+    font-size: 17px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    color: #ffffff;
+    padding: 0;
+}
+.cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar .product-dropdown{
+    left: -50px;
+    top: 27px;
+    width: 200px;
+}
+
+.cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 600;
+    padding: 13px 0;
+}
+.cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar .dropdown span{
+    font-size: 13px;
+    line-height: 13px;
+    margin-right: 20px
+}
+.cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar .dropdown-toggle::after{
+    display: none;
+}
+.cs-header-mailbox{
+    background-color: #fff;
+    padding: 16px 25px;
+    max-width: 320px;
+    align-self: stretch;    
+}
+.cs-header-mailbox .mailto{
+    margin-top: 15px;
+}
+.cs-header-mailbox .mailto a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.product-dropdown-btn i{
+    font-size: 18px;
+}
+.product-dropdown-btn{
+    cursor: pointer;
+}
+.cs-header .cs-header-slider {
+    position: relative;
+}
+.cs-header .cs-header-slider .cs-slider-text{
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    width: 45%;
+}
+.cs-header .cs-header-slider .cs-slider-text p{
+    font-size: 44px;
+    line-height: 58px;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.cs-header .cs-header-slider .cs-slider-text h1{
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 38px;
+    
+}
+.cs-header .cs-header-slider .cs-carousel-ico-main{
+        right: 10px;
+        bottom: 10px;
+        position: absolute;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+        align-items: center;
+}
+.cs-header .cs-header-slider .cs-carousel-ico{
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    color: #000;
+    font-size: 26px;
+    margin-left: 6px;
+
+}
+.cs-header .cs-header-slider .cs-carousel-ico-prev.cs-carousel-ico{
+    left: auto;
+    right: 74px;
+}
+
+/*----*/
+.cs-about{
+    padding: 75px 0;
+}
+.cs-about p{
+    font-size: 17px;
+    line-height: 40px;
+}
+/*-----*/
+.wine-collection{
+    background-color: #fbf8ee;
+    padding: 15px 0 35px 0;
+}
+.wine-collection-card {
+    border-bottom: 1px solid #eee;
+    padding: 55px 0;
+    height: 100%;
+}
+
+.wine-collection-card-main:nth-child(odd)  {
+    border-right: 1px solid #eee;    
+}
+.wine-collection-card .wine-collection-card-text h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+.wine-collection-card .wine-collection-card-text p{
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 24px;
+}
+.wine-collection-card .wine-collection-card-divider{
+    border: 1px dashed #333;
+    margin: 30px 0;
+  
+}
+.wine-collection-card  a i{
+    padding: 16px 21px;
+}
+
+/*---*/
+.wine-highlight{
+    background: url(../imgs/wine-highlight.png) no-repeat;
+    padding-top: calc(150px - 20px);
+}
+.wine-highlight .wine-highlight-box{
+    padding: 50px 80px 35px 80px;
+    margin-bottom: -100px;
+    min-height: 670px;
+    border: 10px solid #fff;
+}
+.wine-highlight .wine-counter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 28px 0 44px 0;
+}
+.wine-highlight .wine-counter .wine-counter-card{
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 24px 27px;
+    position: relative;
+    margin-left: 30px;
+    max-width: 100px;
+}
+.wine-highlight .wine-counter .wine-counter-card:first-child{
+    margin-left: 0;
+}
+.wine-highlight .wine-counter .wine-counter-card-number{
+    font-size: 35px;
+    line-height: 38px;
+    
+}
+.wine-highlight .wine-counter .cs-divider{
+    margin: 14px 0 18px 0;
+}
+.wine-highlight .wine-counter .wine-counter-card-string{
+    font-size: 15px;
+    line-height: 15px;
+}
+.wine-counter-card-corner{
+    position: absolute;
+    background-color: #632724;
+}
+.wine-counter-card-corner:nth-child(1){
+    left: 0;
+    top: 0;
+}
+.wine-counter-card-corner:nth-child(2){
+    right: 0;
+    top: 0;
+}
+.wine-counter-card-corner:nth-child(3){
+    left: 0;
+    bottom: 0;
+}
+.wine-counter-card-corner:nth-child(4){
+    right: 0;
+    bottom: 0;
+}
+
+/*---*/
+.join-us{
+    padding: 170px 0 0;
+}
+
+/*---*/
+.cs-footer{
+    background-color: #000;
+    padding: 100px 0;
+}
+.cs-footer .nav{
+    margin: 60px 0;
+}
+.cs-footer a.nav-link{
+    color: #fff;
+}
+
+.cs-footer-address .cs-footer-address-card i{    
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 35px;
+}
+.cs-footer-address .cs-footer-address-card i.cs-footer-address-card-call-ico{
+    transform: rotate(338deg);
+    
+}
+.cs-footer-address .cs-footer-address-card p{
+    margin-top: 30px;
+
+}  
+.cs-footer-bar{
+    padding: 10px 0;
+    font-size: 13px;
+    
+}
+
+@media only screen and (max-width: 1750px) {
+    .cs-header-leftbar{
+        height: 84vh;
+    }
+    .cs-header-leftbar .cs-header-social a{
+        width: 50px;
+        height: 50px;
+    }
+    .cs-header .navbar-brand {
+        width: 230px;
+        margin-right: 30px;
+    }
+    .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    body .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li.nav-item a{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .cs-header-mailbox{
+        padding: 16px 18px;
+    }
+    .cs-header-mailbox .mailto a{
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .cs-header-leftbar{
+        height: 80vh;
+    }
+    .cs-header-leftbar .cs-header-scroll{
+        margin: 60px 0 40px 0;
+    }
+    .cs-header-leftbar .cs-header-social a{
+        width: 40px;
+        height: 40px;
+    }
+    .cs-header-leftbar .cs-header-scroll span{
+        left: 36%;
+    }
+    .cs-header .navbar-brand {
+        width: 180px;
+        margin-right: 20px;
+    }
+    .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul {
+        padding: 30px 0 22px 0;
+    }
+    .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    body .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li.nav-item a{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .cs-header .cs-header-slider .cs-slider-text p{
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 35px;
+    }
+    .cs-header .cs-header-slider .cs-slider-text h1{
+        font-size: 72px;
+        line-height: 90px;
+        margin-bottom: 34px;
+        
+    }
+    .cs-header-mailbox{
+        padding: 13px 15px ;
+    }
+    .cs-header-mailbox .mailto a{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .cs-header .cs-header-slider .cs-carousel-ico{
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+    }
+    
+    .cs-primary-btn i{
+        padding: 20px 20px;
+    }
+    .cs-primary-heading h2{
+        font-size: 42px;
+        line-height: 50px;
+    }
+   
+}
+@media only screen and (max-width: 1400px) {
+    .cs-header-leftbar{
+        height: 78vh;
+    }
+    .cs-header-leftbar .cs-header-scroll{
+        margin: 45px 0 25px 0;
+    }
+    .cs-header-leftbar .cs-header-social a{
+        width: 35px;
+        height: 35px;
+    }
+    .cs-header .navbar-brand {
+        width: 200px;
+        margin-right: 15px;
+    }
+    .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul {
+        padding: 28px 0 20px 0;
+    }
+    .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    body .cs-header-rightbar .cs-header-menu .cs-header-menu-list ul li.nav-item a{
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar{
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .cs-header .cs-header-slider .cs-slider-text{
+        width: 50%;
+        top: 24%;
+    }
+    .cs-header .cs-header-slider .cs-slider-text p{
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 32px;
+    }
+    .cs-header .cs-header-slider .cs-slider-text h1{
+        font-size: 66px;
+        line-height: 84px;
+        margin-bottom: 30px;
+        
+    }
+    .cs-header-mailbox{
+        padding: 12px;
+    }
+    body .cs-header-mailbox .mailto a{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .cs-header .cs-header-slider .cs-carousel-ico{
+        height: 55px;
+        width: 55px;
+        font-size: 22px;
+    }
+    .cs-primary-btn i{
+        padding: 18px 20px;
+    }
+    .cs-primary-btn {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .cs-primary-heading h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .wine-highlight .wine-highlight-box{
+        padding: 50px 70px 34px 70px;
+    }
+}
+
+    @media only screen and (max-width: 1199px) {
+        .cs-header-leftbar{
+            height: 25vh;
+            justify-content: center;
+            padding: 0 10px;
+        }
+        .cs-header-leftbar .cs-header-social a{
+            width: 32px;
+            height: 32px;
+            font-size: 15px;
+        }
+        .cs-header .cs-header-rightbar .cs-header-menu .cs-header-topbar{
+            border: 0;
+        }
+        .navbar-collapse{
+            position: absolute;
+            z-index: 9999;
+            left: 0;
+            background: black;
+            width: 100%;
+            top: 50px;
+        }
+        .navbar-collapse ul{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+                    align-items: center;
+            padding: 0;
+        }
+        .navbar-collapse ul li {
+            margin: 0 !important;
+            border-bottom: 1px solid #999;
+            width: 100%;
+            padding: 15px;
+        }
+        .cs-header .navbar-brand{
+            padding: 10px 0;
+            width: 180px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            width: 50%;
+            
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 28px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 54px;
+            line-height: 68px;
+            margin-bottom: 22px;
+            
+        }
+        .cs-header .cs-header-slider .cs-carousel-ico{
+            height: 50px;            
+            width: 50px;
+            font-size: 20px;
+        }
+        .cs-primary-btn {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        .cs-primary-btn i{
+            padding: 16px 20px;
+        } 
+        .cs-primary-heading h2{
+            font-size: 38px;
+            line-height: 46px;
+        }
+        .cs-sub-heading{
+            margin-bottom: 20px;
+        }
+        .wine-highlight .wine-highlight-box{
+            padding: 50px 60px 34px 60px;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .cs-header-leftbar {
+            padding: 0 8px;
+        }
+        .cs-header-leftbar .cs-header-social a{
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+        }
+        .cs-header .navbar-brand{
+            width: 160px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            width: 60%;
+            top: 22%;
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 20px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 46px;
+            line-height: 56px;
+            margin-bottom: 20px;
+            
+        }
+        .cs-header .cs-header-slider .cs-carousel-ico{
+            height: 50px;            
+            width: 50px;
+            font-size: 20px;
+        }
+        .cs-primary-btn {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        body .cs-primary-btn i{
+            padding: 14px 20px;
+            font-size: 16px;
+        }
+        .cs-primary-heading h2{
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .wine-highlight .wine-highlight-box{
+            padding: 50px 50px 34px 50px;
+        }
+        
+    }
+    @media only screen and (max-width: 768px) {
+        .cs-header-leftbar {
+            padding: 0 6px;
+        }
+        .cs-header-leftbar .cs-header-social a{
+            width: 26px;
+            height: 26px;
+            font-size: 13px;
+        }
+        .cs-header .navbar-brand{
+            width: 140px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            width: 53%;
+            top: 20%;
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 14px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 34px;
+            line-height: 44px;
+            margin-bottom: 15px;
+            
+        }
+        .cs-header .cs-header-slider .cs-carousel-ico{
+            height: 40px;            
+            width: 40px;
+            font-size: 18px;
+        }
+        .cs-primary-btn {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        body .cs-primary-btn i{
+            padding: 14px 20px;
+            font-size: 13px;
+        }
+        .cs-primary-heading h2{
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .wine-collection-card-text{
+            margin-top: 20px;
+        }
+        .wine-collection-card .wine-collection-card-text p{
+            margin-top: 15px;
+        }
+        .wine-collection-card .wine-collection-card-divider{
+            display: none;
+        }
+        .wine-highlight .wine-counter .wine-counter-card{
+            margin-top: 20px;
+            width: 100px;
+            margin-left: 10px;
+        }
+        .wine-highlight .wine-highlight-box{
+            padding: 30px;
+        }
+    }
+    @media only screen and (max-width: 580px) {
+        .cs-header-leftbar {
+            /* height: 22vh; */
+            -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end;
+            padding-bottom: 10px;
+        }
+        .cs-header-leftbar .cs-header-social a{
+            width: 22px;
+            height: 22px;
+            font-size: 12px;
+        }
+        .cs-header .navbar-brand{
+            width: 120px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            top: 18%;
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 12px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 12px;
+            
+        }
+        .cs-primary-btn {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        body .cs-primary-btn i{
+            padding: 12px 18px ;
+            font-size: 12px;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .cs-header .navbar-brand{
+            width: 100px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            top: 16%;
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            
+        }
+        .cs-header .cs-header-slider .cs-carousel-ico{
+            height: 36px;            
+            width: 36px;
+            font-size: 16px;
+        }
+        .cs-primary-btn {
+            font-size: 11px;
+            line-height: 11px;
+        }
+        body .cs-primary-btn i{
+            padding: 10px 12px ;
+            font-size: 11px;
+        }
+        .wine-highlight .wine-counter {
+            display: block;
+        }
+        .wine-highlight .wine-counter .wine-counter-card{
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    }
+    @media only screen and (max-width: 420px) {
+        .cs-header .navbar-brand{
+            width: 90px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            top: 14%;
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 8px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 20px;
+            line-height: 26px;
+            margin-bottom: 6px;
+            
+        }
+        .cs-header .cs-header-slider .cs-carousel-ico{
+            height: 32px;            
+            width: 32px;
+            font-size: 14px;
+        }
+        .cs-primary-btn {
+            font-size: 11px;
+            line-height: 11px;
+        }
+        body .cs-primary-btn i{
+            padding: 10px 12px ;
+            font-size: 11px;
+        }
+    }
+    @media only screen and (max-width: 380px) {
+        .cs-header-leftbar {
+            height: 28vh;
+        }
+        .cs-header .cs-header-slider .cs-slider-text{
+            top: 14%;
+            width: 60%;
+        }
+        .cs-header .cs-header-slider .cs-slider-text p{
+            margin-bottom: 6px;
+        }
+        .cs-header .cs-header-slider .cs-slider-text h1{
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 4px;
+        }
+        .cs-header .cs-header-slider .cs-carousel-ico{
+            height: 28px;            
+            width: 28px;
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (min-width: 1400px) {
+        .container {
+            max-width: 1400px;
+        }
+    }
